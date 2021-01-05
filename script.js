@@ -36,7 +36,7 @@ prev.addEventListener('click', () => {
 //Line 29 - Set it at one, so it does not go below 1 
 
 function update() {
-    circles.forEach((circle,index) => {
+    circles.forEach((circle, index) => {
         if(index < currentActive) {                   // Check to see if each circle is less than the Current Active
             circle.classList.add('active')            //If true, take that particular circle and add to that particular circle
         } else {
